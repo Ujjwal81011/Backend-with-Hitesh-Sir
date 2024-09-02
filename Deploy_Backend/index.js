@@ -1,7 +1,7 @@
 require('dotenv').config() // must be written for using .env file
 const express = require('express') // insteed of this we can write <import express from 'express';>
 const app = express()
-const port = 4000 //port where you wants to execute your app in your local host
+const port = 3000 //port where you wants to execute your app in your local host
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
