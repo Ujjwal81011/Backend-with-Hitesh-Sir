@@ -2,8 +2,6 @@ import express from "express"
 import connectDB from "./config/database.js" // for connecting database
 
  const app = express()
- 
- const PORT = 3000
 
  connectDB()  // calling connectDB function from config
 
