@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true  
     },
-    Admin: {  // for importing one data model into another data model
+    Admin: {  //for importing one data model into another data model
         type: mongoose.Schema.Types.ObjectId,
         ref:"Admin"
     },
