@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.send("server is ready")
 });
 
-// get a list of 5 jokes
+//get a list of 5 jokes
 app.get("/api/jokes",(req,res) => {
     const jokes = [
         {
