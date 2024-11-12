@@ -19,6 +19,6 @@ app.get('/chai', (req,res) => {
     res.send('do you want to have a cup of CHAI')
 })
 
-app.listen(process.env.PORT, () => {  // here replace the port using procss.env.<port_name> that will be in .env file
+app.listen(process.env.PORT, () => {  //here replace the port using procss.env.<port_name> that will be in .env file
   console.log(`Example app listening on port ${port}`)
 })
